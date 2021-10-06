@@ -1,0 +1,107 @@
+/* Общие стили */
+body {
+  margin: 0 auto;
+  width: 1920px;
+}
+
+/* стили хэдера */
+header {
+  /* background-color: pink; */
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #212121;
+  font-size: 18px;
+  box-shadow: 0 30px 10px -10px rgba(0, 0, 0, 0.05);
+}
+/* Стиль Заголовка */
+.info_title {
+  /* background-color: rgb(38, 247, 19); */
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: #424242;
+  font-size: 40px;
+  text-align: center;
+  margin: 63px;
+  box-sizing: border-box;
+ }
+
+ /* Стиль Меню */
+.main-menu-foto {
+  list-style: none;
+  box-sizing: border-box;
+  /* background-color: rgba(250, 128, 114, 0.5); */
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+h1,h2,h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #212121;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  line-height: 0.5;
+  text-align: center;
+  margin: 0 0 80px 0;
+}
+
+.main-menu-about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  /* background-color: rgb(135, 235, 193); */
+  box-sizing: border-box;
+  width: calc(33% - 200px);
+  }
+
+/* Стиль центральной части */
+.central-item {
+  border-top: 1px solid #ffb5b5;
+  border-bottom: 1px solid #ffb5b5;
+  /* background-color: skyblue; */
+  padding: 101px 0 101px 0;
+  /* width: 1162px; */
+  text-align: center;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  color: #ff445a;
+}
+.central-item-text {
+  font-size: 32px;
+}
+.central-item-author {
+  font-size: 24px;
+}
+
+/* Стиль Стихов */
+.poems {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  margin: 88px auto;
+}
+
+.poems-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #424242;
+  line-height: 100%;
+}
+/* Футер */
+footer {
+  height: 80px;
+  background-color: #ffb5b5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

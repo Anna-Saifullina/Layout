@@ -1,0 +1,73 @@
+/* общие стили */
+body {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* стили хэдэра */
+.header-top-info {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 67px;
+    align-items: center;
+}
+.top-menu {
+    display: flex;
+    width: 945px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    }
+.top-menu-left, .top-menu-right  {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.top-menu-left a, .top-menu-right a {  /* именно для А, тк св-во подчеркивания относится к ссылке */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #424242;
+}
+.header-top {
+    border-bottom: 1px solid #DEDEDE;
+}
+.top-menu-left {
+    width: 352px;
+}
+.top-menu-right {
+    width: 340px;
+}
+
+
+.main-menu-list {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    list-style-type: none;
+    align-items: center;
+    height: 73px;
+    
+}
+.main-menu-list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #424242;
+    font-weight: 500;
+}
+.header-bottom {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+/* стили баннера */
+.banner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

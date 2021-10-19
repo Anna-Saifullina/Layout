@@ -10,6 +10,38 @@ ul {
     width: 1140px;
     margin: 0 auto;
 }
+h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 110%;
+    color: #212121;
+    margin-top: 0;
+    width: 427px;
+    }
+.blue-text {
+color: #3a95ff;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.btn-primary {
+    background-color: #3a95ff;
+    color: #fff;
+}
+.btn-secondary {
+    border: 1px solid #3a95ff;
+    color: #3a95ff;
+}
+
 /* стили хэдэра */
 .header-top-info {
     display: flex;
@@ -22,7 +54,7 @@ ul {
     display: flex;
     width: 945px;
     justify-content: space-between;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     }
 .top-menu-left, .top-menu-right  {
     display: flex;
@@ -66,8 +98,91 @@ ul {
 }
 
 /* стили баннера */
+.main-banner {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+}
 .banner-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   }
+
+.banner-info-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 437px;
+}
+/* стили раздела предложения банка */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 662px;
+    margin-top: 70px;
+   }
+.products-item {
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+    height: 300px;
+    background: #eff2f5;
+   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+   border-radius: 8px;
+}
+
+/* стили блока Кредиты 60 */
+.credits {
+    background-color: #eff2f5;
+}
+.credits-info {
+    display: flex;
+    justify-content: space-between;
+}
+.credit-60 {
+    flex-wrap: wrap;
+    display: flex;
+    width: 750px;
+    height: 500px;
+    justify-content: center;
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.credit-60-h {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    color: #212121;
+}
+.credit-60-points {
+display: flex;
+justify-content: space-between;
+width: 545px;
+}
+
+.credit-60-points-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.points-item-top {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #212121;
+    border-bottom: 1px solid #3a95ff;
+}
+.credit-60-buttoms {
+    display: flex;
+    justify-content: space-between;
+    width: 437px;
+
 }
